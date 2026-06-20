@@ -13,8 +13,8 @@ plugins:
 # For a project site served at https://<user>.github.io/next-harness/, set:
 #   baseurl: "/next-harness"
 # Leave empty for a user/organization site or local preview.
-baseurl: ""
-url: ""
+baseurl: "/next-harness"
+url: "https://lsdippollc.github.io"
 
 search_enabled: true
 color_scheme: dark
