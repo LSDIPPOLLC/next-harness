@@ -1,0 +1,22 @@
+{
+  "name": "next-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dynamic loop orchestration harness for Claude Code — loops that prompt agents instead of prompting agents step by step.",
+  "engines": {
+    "node": ">=24"
+  },
+  "bin": {
+    "harness": "src/cli.ts"
+  },
+  "scripts": {
+    "harness": "node src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,47 @@
+title: next-harness
+description: >-
+  Dynamic loop orchestration for Claude Code — design loops that prompt agents
+  instead of prompting agents step by step.
+
+# just-the-docs is supported on GitHub Pages via the jekyll-remote-theme plugin
+# (whitelisted), so a plain "Deploy from branch → /docs" build works with no
+# custom GitHub Action.
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+# For a project site served at https://<user>.github.io/next-harness/, set:
+#   baseurl: "/next-harness"
+# Leave empty for a user/organization site or local preview.
+baseurl: ""
+url: ""
+
+search_enabled: true
+color_scheme: dark
+heading_anchors: true
+
+# Built-in Mermaid support (used by the Concepts and Spec-mapping pages).
+mermaid:
+  version: "9.1.6"
+
+aux_links:
+  "Source on GitHub":
+    - "https://github.com/LSDIPPOLLC/next-harness"
+aux_links_new_tab: true
+
+callouts:
+  note:
+    color: blue
+  warning:
+    color: red
+  done:
+    title: Implemented
+    color: green
+  gap:
+    title: Gap vs. spec
+    color: yellow
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
